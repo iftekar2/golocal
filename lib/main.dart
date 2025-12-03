@@ -1,24 +1,7 @@
-import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_dotenv/flutter_dotenv.dart';
-import 'package:golocal/components/bottomNavigation.dart';
-import 'package:golocal/flutter_dotenv.dart';
-import 'package:supabase_flutter/supabase_flutter.dart';
+import 'package:golocal/welcome_page/welcomePage.dart';
 
 void main() async {
-  // Firebase
-  WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp();
-
-  // Load .env file
-  await dotenv.load();
-
-  // Supabase
-  await Supabase.initialize(
-    url: SupabaseConfig.url,
-    anonKey: SupabaseConfig.anonKey,
-  );
-
   runApp(const MyApp());
 }
 
@@ -27,9 +10,6 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      home: BottomNavigation(key: BottomNavigation.navigationKey),
-    );
+    return MaterialApp(debugShowCheckedModeBanner: false, home: WelcomePage());
   }
 }

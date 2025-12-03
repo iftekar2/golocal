@@ -18,6 +18,18 @@
 			</array>
 		</dict>
 	</array>
+	<key>CFBundleURLTypes</key>
+    <array>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>com.googleusercontent.apps.603202302919-bmf18o9hp5f7tnabpl7d31lqijh3cbdf</string>
+        </array>
+      </dict>
+    </array>
+
 	<!-- End of the Google Sign-in Section -->
 
 	<key>CFBundleDevelopmentRegion</key>
