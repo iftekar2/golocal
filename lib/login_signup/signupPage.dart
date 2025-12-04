@@ -5,6 +5,9 @@ class SignupPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(body: Column(children: [Text("Sign Up")]));
+    return Scaffold(
+      appBar: AppBar(),
+      body: Column(children: [Text("Sign Up")]),
+    );
   }
 }
