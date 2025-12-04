@@ -121,7 +121,7 @@ class _WelcomePageState extends State<WelcomePage> {
                                 "I already have an account",
                                 style: TextStyle(
                                   color: Colors.black,
-                                  fontSize: 20,
+                                  fontSize: 18,
                                   fontWeight: FontWeight.bold,
                                 ),
                               ),

@@ -38,7 +38,7 @@ class _LoginPageState extends State<LoginPage> {
             children: [
               Image(
                 image: NetworkImage(
-                  "https://img.freepik.com/free-vector/hand-drawn-squirrel-cartoon-illustration_23-2151342198.jpg?t=st=1764726371~exp=1764729971~hmac=0182ac215e073030df92e60afd7b8818a2b33a3b5ed0a115a054fb30a3c099e3&w=740",
+                  "https://img.freepik.com/free-vector/hand-drawn-squirrel-cartoon-illustration_23-2151342198.jpg",
                 ),
                 height: 300,
                 width: 300,
@@ -165,7 +165,7 @@ class _LoginPageState extends State<LoginPage> {
                       ),
                     ),
 
-                    SizedBox(height: 2),
+                    SizedBox(height: 10),
 
                     GestureDetector(
                       onTap: () {
