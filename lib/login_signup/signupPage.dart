@@ -43,7 +43,7 @@ class _SignupPageState extends State<SignupPage> {
                 width: 300,
               ),
 
-              SizedBox(height: 20),
+              SizedBox(height: 10),
 
               Container(
                 child: Column(
@@ -233,7 +233,73 @@ class _SignupPageState extends State<SignupPage> {
                       ),
                     ),
 
-                    SizedBox(height: 50),
+                    SizedBox(height: 20),
+
+                    Row(
+                      children: [
+                        Expanded(
+                          child: Divider(
+                            color: Colors.grey,
+                            height: 1,
+                            thickness: 1,
+                          ),
+                        ),
+
+                        Padding(
+                          padding: const EdgeInsets.symmetric(horizontal: 8.0),
+                          child: Text(
+                            "Or",
+                            style: TextStyle(fontSize: 18, color: Colors.grey),
+                          ),
+                        ),
+
+                        Expanded(
+                          child: Divider(
+                            color: Colors.grey,
+                            height: 1,
+                            thickness: 1,
+                          ),
+                        ),
+                      ],
+                    ),
+
+                    SizedBox(height: 10),
+
+                    ElevatedButton(
+                      style: ElevatedButton.styleFrom(
+                        backgroundColor: Colors.white,
+                        shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(15),
+                          side: BorderSide(
+                            color: const Color.fromARGB(255, 177, 177, 177),
+                          ),
+                        ),
+
+                        minimumSize: Size(double.infinity, 60),
+                      ),
+
+                      onPressed: () {},
+
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          Image.asset(
+                            "lib/welcome_page/google-logo.png",
+                            height: 30,
+                            width: 30,
+                          ),
+
+                          SizedBox(width: 10),
+
+                          Text(
+                            "Sign up with Google",
+                            style: TextStyle(color: Colors.black, fontSize: 18),
+                          ),
+                        ],
+                      ),
+                    ),
+
+                    SizedBox(height: 30),
 
                     Row(
                       mainAxisAlignment: MainAxisAlignment.center,
