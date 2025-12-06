@@ -28,7 +28,7 @@ class _SignupPageState extends State<SignupPage> {
         ),
       ),
 
-      backgroundColor: Color.fromARGB(246, 255, 255, 250),
+      backgroundColor: Colors.white,
       body: Center(
         child: Padding(
           padding: const EdgeInsets.symmetric(horizontal: 20),
@@ -37,14 +37,13 @@ class _SignupPageState extends State<SignupPage> {
             children: [
               Image(
                 image: NetworkImage(
-                  "https://img.freepik.com/free-vector/hand-drawn-frog-cartoon-illustration_23-2151342213.jpg",
+                  "https://img.freepik.com/free-vector/retro-cartoon-coloring-illustration_23-2151296685.jpg",
                 ),
                 height: 300,
                 width: 300,
               ),
 
-              SizedBox(height: 10),
-
+              //SizedBox(height: 10),
               Container(
                 child: Column(
                   children: [
@@ -99,7 +98,7 @@ class _SignupPageState extends State<SignupPage> {
                       ),
                     ),
 
-                    SizedBox(height: 10),
+                    SizedBox(height: 20),
 
                     Container(
                       height: 60,
@@ -150,7 +149,7 @@ class _SignupPageState extends State<SignupPage> {
                       ),
                     ),
 
-                    SizedBox(height: 10),
+                    SizedBox(height: 20),
 
                     Container(
                       height: 60,

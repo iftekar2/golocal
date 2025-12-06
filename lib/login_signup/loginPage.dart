@@ -29,7 +29,7 @@ class _LoginPageState extends State<LoginPage> {
         ),
       ),
 
-      backgroundColor: Color.fromARGB(246, 255, 255, 250),
+      backgroundColor: Colors.white,
       body: Center(
         child: Padding(
           padding: const EdgeInsets.symmetric(horizontal: 20),
@@ -38,21 +38,20 @@ class _LoginPageState extends State<LoginPage> {
             children: [
               Image(
                 image: NetworkImage(
-                  "https://img.freepik.com/free-vector/hand-drawn-squirrel-cartoon-illustration_23-2151342198.jpg",
+                  "https://img.freepik.com/free-vector/hand-drawn-retro-cartoon-coloring-illustration_52683-159886.jpg",
                 ),
                 height: 300,
                 width: 300,
               ),
 
               SizedBox(height: 20),
-
               Container(
                 child: Column(
                   children: [
                     SizedBox(height: 10),
 
                     Container(
-                      height: 70,
+                      height: 60,
                       child: TextField(
                         maxLines: null,
                         expands: true,
@@ -100,7 +99,7 @@ class _LoginPageState extends State<LoginPage> {
                       ),
                     ),
 
-                    SizedBox(height: 10),
+                    SizedBox(height: 20),
 
                     Container(
                       height: 70,
