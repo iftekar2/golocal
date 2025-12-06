@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:golocal/login_signup/forgotPasswordPage.dart';
-import 'package:golocal/login_signup/signupPage.dart';
+import 'package:golocal/forgot_password/forgotPasswordPage.dart';
+import 'package:golocal/signup/signupPage.dart';
 
 class LoginPage extends StatefulWidget {
   const LoginPage({super.key});

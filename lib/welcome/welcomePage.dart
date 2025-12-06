@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:golocal/login_signup/loginPage.dart';
-import 'package:golocal/login_signup/signupPage.dart';
+import 'package:golocal/login/loginPage.dart';
+import 'package:golocal/signup/signupPage.dart';
 
 class WelcomePage extends StatefulWidget {
   const WelcomePage({super.key});

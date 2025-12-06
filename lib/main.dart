@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:golocal/welcome_page/welcomePage.dart';
+import 'package:golocal/welcome/welcomePage.dart';
 
 void main() async {
   runApp(const MyApp());
